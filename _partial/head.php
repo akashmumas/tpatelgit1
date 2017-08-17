@@ -21,7 +21,8 @@
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 <link href='//fonts.googleapis.com/css?family=Overlock' rel='stylesheet'>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<!--<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+
 
 

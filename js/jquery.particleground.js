@@ -63,6 +63,11 @@
       canvas.className = 'pg-canvas';
       canvas.style.display = 'block';
       element.insertBefore(canvas, element.firstChild);
+		
+		canvas.setAttribute("height", "500px");
+		var aprtw = window.innerWidth;
+//		alert(aprtw);
+		canvas.setAttribute("width", aprtw);
       ctx = canvas.getContext('2d');
       styleCanvas();
 
@@ -99,8 +104,10 @@
      * Style the canvas
      */
     function styleCanvas() {
-      canvas.width = element.offsetWidth;
-      canvas.height = element.offsetHeight;
+//		var canvasw = document.getElementById("part-wrap").offsetWidth;
+//		var canvash = document.getElementById("part-wrap").offsetHeight;
+//      canvas.width = document.getElementById("part-wrap").offsetWidth;
+//      canvas.height = document.getElementById("part-wrap").offsetHeight;
       ctx.fillStyle = options.dotColor;
       ctx.strokeStyle = options.lineColor;
       ctx.lineWidth = options.lineWidth;

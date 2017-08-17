@@ -21,3 +21,10 @@ $(document).ready(function(){
         $('.second_wrapper').css("display", "block");
     }, 5500);
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  particleground(document.getElementById('particles'), {
+    dotColor: '#5cbdaa',
+    lineColor: '#5cbdaa'
+  });
+}, false);

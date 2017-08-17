@@ -63,11 +63,10 @@
       canvas.className = 'pg-canvas';
       canvas.style.display = 'block';
       element.insertBefore(canvas, element.firstChild);
-		
-		canvas.setAttribute("height", "500px");
 		var aprtw = window.innerWidth;
-//		alert(aprtw);
+		var aprth = window.innerWidth;
 		canvas.setAttribute("width", aprtw);
+		canvas.setAttribute("height", aprth);
       ctx = canvas.getContext('2d');
       styleCanvas();
 

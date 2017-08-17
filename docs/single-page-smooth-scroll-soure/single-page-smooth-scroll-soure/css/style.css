@@ -1,0 +1,56 @@
+/* =The style for the lab
+-------------------------------------------------------------- */
+#sidebar {
+    width:100%;
+    text-align: center;
+}
+
+#content {
+    width:100%;
+}
+
+
+/* navigation */
+nav {
+    background-color:rgb(240,240,240);
+    border:solid 1px rgb(220,220,220);
+    padding:0 12px;
+}
+
+nav.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+/*    margin-top:12px;*/
+    width: 100%;
+}
+
+
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display: inline-flex;
+}
+
+nav li {
+    margin: 10px 20px;
+}
+
+nav li a {
+    color:rgb(50,50,50);
+    font-weight:700;
+}
+
+a.nav-active {
+    color:#ccc;
+}
+
+
+
+hr {
+    border:none;
+    background-color:rgb(220,220,220);
+    height:12px;
+    margin-bottom:18px;
+}

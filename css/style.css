@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: robotoslab;
+    src: url('../fonts/RobotoSlab-Regular.ttf');
+}
+/*@import url(https://fonts.googleapis.com/css?family=Overlock);*/
+a
+{
+    text-decoration: none;
+}
+a:hover, a:active, a:visited
+{
+    text-decoration: none;
+}
+body
+{
+    color: #333!important;
+}
+/*************** start screen css start ******************/
+#start_screen
+{
+    width: 100%;
+    height: 100vh;
+    background: #151515;
+    position: absolute;
+    z-index: 999;
+    transition: 0.4s all ease;
+}
+.main_wrapper
+{
+    position: relative;
+}
+header
+{
+/*    position: absolute;*/
+    width: 100%;
+}
+#logo_wrapper
+{    
+    margin: 0 auto;
+    width: 280px;
+    top: 30%;
+    /* left: 39%; */
+/*    background: #fff;*/
+    padding: 100px;
+    position: relative;
+    text-align: center;
+}
+#spin_img
+{
+    transform: scale(0);
+    transition: 0.9s all ease;
+}
+.spinner
+{
+    transform: scale(1)!important;
+    animation: spin 2s linear infinite;   
+}
+.spinner_opacity{
+    opacity: 0!important;
+}
+@keyframes spin
+{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+#arrow_img1
+{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    z-index: 2;
+    width: 85px;
+    transition: 0.9s all ease;
+    opacity: 0;
+/*    transform: translate(75px, 85px);*/
+}
+.arrow_img1_trans
+{
+    opacity: 1!important;
+    top: 82px!important;
+    left: 75px!important;    
+}
+.arrow_img1_trans2
+{
+    opacity: 0!important;
+    top: 40px!important;
+    left: 0px!important;    
+}
+#arrow_img2
+{
+    position: absolute;
+    top: 0px;
+    left: 115px;
+    z-index: 1;
+    width: 85px;
+    transition: 0.9s all ease;
+    opacity: 0;
+/*    transform: translate(75px, 85px);*/
+}
+.arrow_img2_trans
+{
+    opacity: 1!important;
+    top: 31px!important;
+    left: 115px!important;    
+}
+.arrow_img2_trans2
+{
+    opacity: 0!important;
+    top: 0px!important;
+    left: 115px!important;    
+}
+#arrow_img3
+{
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    z-index: 0;
+    width: 85px;
+    transition: 0.9s all ease;
+    opacity: 0;
+/*    transform: translate(75px, 85px);*/
+}
+.arrow_img3_trans
+{
+    opacity: 1!important;
+    top: 66px!important;
+    right: 65px!important;    
+}
+.arrow_img3_trans2
+{
+    opacity: 0!important;
+    top: 40px!important;
+    right: 0px!important;    
+}
+/*************** start screen css end ******************/
+
+/*************** head navigation css start ******************/
+.logo_img
+{
+    width: 175px;
+}
+.navbar-toggle
+{
+	position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+.navbar
+{
+	width: 100%;
+	padding: 20px 0px;	
+	margin-bottom: 0px;
+}
+.nav-wrap
+{
+	float: right;
+	margin-top: 15px;
+}
+.navbar-nav>li>a
+{
+	font-family: robotoslab;
+	font-size: 17px;
+	color: #333;
+}
+.navbar-nav>li>a:hover
+{
+	background: transparent!important;
+}
+span.hover_arrow
+{
+    width: 15px;
+    height: 15px;
+    background-image: url('../img/hoverarrow.png');
+    background-position: top left;
+    background-size: cover;
+    position: absolute;
+    bottom: -15px;
+    left: 48%;
+    opacity: 0;
+    transition: 0.5s all ease;
+}
+.nav>li:hover span.hover_arrow
+{
+	bottom: -3px;
+    opacity: 1;
+}
+.navbar-collapse.in
+{
+	overflow-y: initial;
+}
+/*************** head navigation css end ******************/
+
+/*************** particle css start ******************/
+#particles
+{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.ban-section
+{
+    width: 100%;
+    padding: 20% 0;
+    background-image: url('../img/banner-bg.jpg');
+    background-size: cover;
+    background-position: top left; 
+}
+/*************** particle css end ******************/
+
+
+@media (max-width:768px) {
+        
+}
+@media (min-width:768px) and (max-width:992px) {
+   
+}
+@media (min-width:992px) and (max-width:1200px) {
+    
+}
+@media (min-width:1200px) {
+
+}
+
+

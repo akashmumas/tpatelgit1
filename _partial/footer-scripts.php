@@ -12,5 +12,10 @@ Downloaded from get bootstrap
 
 <!--Your custom script code-->
 
+
 <script type='text/javascript' src='js/jquery.particleground.js'></script>
+<script type='text/javascript' src='js/wow.js'></script>
 <script src="js/main.js"></script>
+<script>
+new WOW().init();
+</script>

@@ -17,7 +17,7 @@ $(document).ready(function(){
     }, 5000);
     setTimeout(function(){
         $('#start_screen').addClass("animated fadeOut");
-        $('#start_screen').css("display", "none");
+        $('#start_screen').css("z-index", "-999");
         $('.second_wrapper').css("display", "block");
     }, 5500);
 });

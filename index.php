@@ -15,7 +15,6 @@
 </head>
 <body>
 	<div class="main_wrapper">
-<!--
 		<div id="start_screen">
 			<div id="logo_wrapper">
 				<img id="spin_img" src="img/spinner.png" style="width:40px" />
@@ -24,9 +23,8 @@
 				<img id="arrow_img3" src="img/arrow3.png" style="width:60px" />
 			</div>
 		</div>
--->
 
-		<div class="second_wrapper" style="display:block;position:relative;z-index:10;">
+		<div class="second_wrapper" style="display:none;position:relative;z-index:10;">
 			<header>
 				<?php include '_partial/header.php' ?>
 			</header>

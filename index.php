@@ -67,3 +67,154 @@
 	</div>   
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box
+{
+	width:500px;
+    height:500px;
+    border:1px solid black;
+    position:relative;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+.dots
+{
+	width:15px;
+    height:15px;
+    background-color:black;
+    border-radius: 100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    transition:all 2s ease;
+}
+</style>
+<script>
+function move()
+{	
+	var select = document.getElementsByClassName("dots");
+    var max = select.length;
+    for (i=0; i<max; i++) {
+	var topval = Math.floor(Math.random()*500);
+    var leftval = Math.floor(Math.random()*500);
+    select[i].style.top = topval+'px';
+    select[i].style.left = leftval+'px';
+}
+};
+setInterval(move,500);		
+</script>
+</head>
+<body>
+
+<h2>Random dots</h2>
+<p>select number of dots : <input type="number" /></p>
+<button type="button" onclick="move();"> Click me!</button>
+<br /><br />
+<div id="box" class="box">
+<div class="dots"></div>
+<div class="dots"></div>
+<div class="dots"></div>
+<div class="dots"></div>
+<div class="dots"></div>
+<div class="dots"></div>
+<div class="dots"></div>
+<div class="dots"></div>
+<div class="dots"></div>
+<div class="dots"></div>
+</div>
+<br /><br />
+<p id="text"></p>
+
+
+
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

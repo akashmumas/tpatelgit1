@@ -15,7 +15,7 @@ $(document).ready(function(){
         $('#arrow_img3').addClass("arrow_img3_trans2");
         $('#spin_img').addClass("spinner_opacity");
     }, 5000);
-    setTimeout(function(){
+    	setTimeout(function(){
         $('#start_screen').addClass("animated fadeOut");
         $('#start_screen').css("z-index", "-999");
         $('.second_wrapper').css("display", "block");

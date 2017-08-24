@@ -128,43 +128,45 @@
     background-color:black;
     border-radius: 100%;
     position:absolute;
-    top:0px;
-    left:0px;
     transition:all 2s ease;
 }
 </style>
 <script>
+function adddots()
+{
+	var numdots = document.getElementById("inputdot").value;
+    var outerbox = document.getElementById("box");
+    for(i=0;i<numdots;i++)
+    {
+    var innerDiv = document.createElement('div');
+	innerDiv.className = 'dots';
+    outerbox.appendChild(innerDiv);
+    }
+    move();
+}    
 function move()
 {	
+	var boxwidth = document.getElementById("box").offsetWidth;
+    var boxheight = document.getElementById("box").offsetHeight;    
 	var select = document.getElementsByClassName("dots");
     var max = select.length;
     for (i=0; i<max; i++) {
-	var topval = Math.floor(Math.random()*500);
-    var leftval = Math.floor(Math.random()*500);
+	var topval = Math.floor(Math.random()*boxwidth);
+    var leftval = Math.floor(Math.random()*boxheight);
     select[i].style.top = topval+'px';
     select[i].style.left = leftval+'px';
 }
 };
-setInterval(move,500);		
+setInterval(move,100);		
 </script>
 </head>
 <body>
 
 <h2>Random dots</h2>
-<p>select number of dots : <input type="number" /></p>
-<button type="button" onclick="move();"> Click me!</button>
+<p>select number of dots : <input type="number" id="inputdot" /></p>
+<button type="button" onclick="adddots();"> Click me!</button>
 <br /><br />
 <div id="box" class="box">
-<div class="dots"></div>
-<div class="dots"></div>
-<div class="dots"></div>
-<div class="dots"></div>
-<div class="dots"></div>
-<div class="dots"></div>
-<div class="dots"></div>
-<div class="dots"></div>
-<div class="dots"></div>
-<div class="dots"></div>
 </div>
 <br /><br />
 <p id="text"></p>
@@ -173,6 +175,7 @@ setInterval(move,500);
 
 </body>
 </html> 
+
 
 
 

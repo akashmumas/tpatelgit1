@@ -58,11 +58,11 @@
 		
 		<section class="about-section p-tb-xxl">
 			<div class="container p-tb-xxl p-lr-none">
-				<div class="col-sm-5">
+				<div class="col-sm-4">
 					<img src="img/about-img.jpg" class="abt-img" alt="Trusha Patel" title="Trusha Patel" />
 <!--					<img src="img/about-img.jpg" class="abt-img2" alt="Trusha Patel" title="Trusha Patel" />-->
 				</div>
-				<div class="col-sm-7 p-l-xl">
+				<div class="col-sm-8 p-l-xl">
 					<div class="about-details p-md">
 						<h1 class="p-b-sm">About Me</h1>
 						<p class="details-para">

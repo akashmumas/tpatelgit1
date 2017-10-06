@@ -374,9 +374,10 @@ h1:after{
 }
 p.details-para{
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 30px;
 	padding-top: 20px;
+    text-align: justify;
 }
 .social-media ul{
 	list-style-type: none;

@@ -407,6 +407,12 @@ p.details-para{
 }
 /*************** about me css end ******************/
 
+/*************** service css start ******************/
+h2{
+	font-size: 42px; 
+}
+/*************** about me css end ******************/
+
 
 @media (max-width:768px) {
         

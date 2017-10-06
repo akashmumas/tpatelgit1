@@ -15,6 +15,7 @@
 </head>
 <body>
 	<div class="main_wrapper">
+<!--
 		<div id="start_screen">
 			<div id="logo_wrapper">
 				<img id="spin_img" src="img/spinner.png" style="width:40px" />
@@ -23,8 +24,9 @@
 				<img id="arrow_img3" src="img/arrow3.png" style="width:60px" />
 			</div>
 		</div>
+-->
 
-		<div class="second_wrapper" style="display:none;position:relative;z-index:10;">
+		<div class="second_wrapper" style="display:block;position:relative;z-index:10;">
 			<header>
 				<?php include '_partial/header.php' ?>
 			</header>
@@ -54,8 +56,38 @@
 			</div>
 		</section>
 		
-		<section class="about-section">
-			<h1>fdhvidevnidn</h1>
+		<section class="about-section p-tb-xxl">
+			<div class="container p-tb-xxl p-lr-none">
+				<div class="col-sm-5">
+					<img src="img/about-img.jpg" class="abt-img" alt="Trusha Patel" title="Trusha Patel" />
+<!--					<img src="img/about-img.jpg" class="abt-img2" alt="Trusha Patel" title="Trusha Patel" />-->
+				</div>
+				<div class="col-sm-7 p-l-xl">
+					<div class="about-details p-md">
+						<h1 class="p-b-sm">About Me</h1>
+						<p class="details-para">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						</p>
+						<div class="social-media p-tb-xxl">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook wow " aria-hidden="true" data-wow-duration="1s" data-wow-delay="0.2s"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram wow " aria-hidden="true" data-wow-duration="1s" data-wow-delay="0.4s"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter wow " aria-hidden="true" data-wow-duration="1s" data-wow-delay="0.6s"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin wow " aria-hidden="true" data-wow-duration="1s" data-wow-delay="0.8s"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</section>
+		
+		<section class="services-section p-tb-xxl">
+			<div class="container p-tb-xxl">
+			<h2 class="text-center">What I Do?</h2>
+			
+			</div>
+						
 		</section>
 
 		<footer>
